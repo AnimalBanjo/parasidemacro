@@ -1,0 +1,14 @@
+#include <windows.h>
+
+1 ICON   "res/icon.ico"
+2 WAVE   "res/sound.wav"
+3 RCDATA "res/icon.png"
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST
+BEGIN
+"<?xml version=""1.0"" encoding=""UTF-8"" standalone=""yes""?>"
+"<assembly xmlns=""urn:schemas-microsoft-com:asm.v1"" manifestVersion=""1.0"">"
+"<assemblyIdentity version=""1.0.0.0"" processorArchitecture=""*"" name=""App"" type=""win32""/>"
+"<dependency><dependentAssembly><assemblyIdentity type=""win32"" name=""Microsoft.Windows.Common-Controls"" version=""6.0.0.0"" processorArchitecture=""*"" publicKeyToken=""6595b64144ccf1df"" language=""*""/></dependentAssembly></dependency>"
+"</assembly>"
+END
